@@ -1,4 +1,5 @@
-import "./css/list.scss";
+import "../css/main.scss";
+import "../css/list.scss";
 
 class ListComponent {
   createItem(title) {
@@ -21,4 +22,5 @@ class ListComponent {
     return list;
   }
 }
+
 export default new ListComponent();

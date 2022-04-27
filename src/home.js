@@ -1,21 +1,6 @@
-import "./css/style.scss";
-import image from "./images/img.jpg";
+import CreateImage from "./components/Image";
 
-class CreateImage {
-  render() {
-    const img = document.createElement("img");
-    img.classList.add("image");
-    img.alt = "image";
-    img.src = image;
-    return img;
-  }
+const app = document.getElementById("app");
+app.appendChild(CreateImage.render());
 
-  renderText() {
-    const text = document.createElement("p");
-    text.innerText = "سلام اخوی";
-
-    return text;
-  }
-}
-
-export default new CreateImage();
+console.log("home js");
