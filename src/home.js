@@ -12,7 +12,7 @@ class CreateImage {
 
   renderText() {
     const text = document.createElement("p");
-    text.innerText = "سلام دنیا";
+    text.innerText = "سلام اخوی";
 
     return text;
   }
